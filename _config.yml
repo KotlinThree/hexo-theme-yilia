@@ -2,13 +2,14 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  所有文章: /archives
+  Kotliner 官网: https://www.kotliner.cn
 
 # SubNav
 subnav:
-  github: "#"
+  github: "https://github.com/KotlinThree"
   weibo: "#"
-  rss: "#"
+  # rss: "#"
   zhihu: "#"
   #qq: "#"
   #weixin: "#"
@@ -47,9 +48,9 @@ open_in_new: false
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢你请我们喝咖啡'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: http://7xpox6.com1.z0.glb.clouddn.com/WechatIMG603.jpeg
 # 微信二维码图片地址
 weixin: 
 
@@ -59,7 +60,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png
 
 #是否开启分享
 share_jia: true
@@ -90,7 +91,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -100,14 +101,14 @@ slider:
 smart_menu:
   innerArchive: '所有文章'
   friends: '友链'
-  aboutme: '关于我'
+  aboutme: '关于我们'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  北京分会: https://www.kotliner.cn/beijing/
+  成都分会: https://www.kotliner.cn/chengdu/
+  # 友情链接3: http://localhost:4000/
+  # 友情链接4: http://localhost:4000/
+  # 友情链接5: http://localhost:4000/
+  # 友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 我们是来自<br>全国各地的 Kotlin 爱好者，期待你的加入！<br>全国QQ群：162452394<br>上海QQ群：322941036<br>微信公众号：Kotlin<br>微信公众号：KotlinThree
